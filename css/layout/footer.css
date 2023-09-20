@@ -5,7 +5,7 @@
 footer .logo {
     color: #4d5ae5;
     margin-bottom: 17.5px;
-    display: inline-block;
+    /* display: inline-block; */
     
 }
 
@@ -177,7 +177,61 @@ footer fieldset {
     margin-left: 16px;
 }
 
+/* TABLET */
 
+@media screen and (min-width: 768px) {
+    footer .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+    align-items: baseline;
+    justify-content: flex-start;
+    padding-left: 108px;
+}
+.footer-logo {
+    align-items: flex-start;
+   }
+.footer-social {
+    gap: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.footer_input_button {
+    flex-direction: row;
+    column-gap: 24px;
+    }
+.footer-form-header {
+    text-align: left;
+}
+.footer-form {
+    align-items: flex-start;
+    
+}
+  }
+
+
+/* DESKTOP */
+
+@media screen and (min-width:1158px) {
+footer .container {
+    flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    row-gap: 0;
+        column-gap: 0;
+}
+.footer-logo {
+    margin-right: 120px;
+}
+.footer-social {
+    margin-right: 80px;
+}
+
+}
 
 /* footer .logo {
     color: #4d5ae5;

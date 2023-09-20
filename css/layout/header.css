@@ -127,11 +127,11 @@
     .address-list .navigation {
             display: flex;
             gap: 40px;
-            padding-right: 156px;
+            /* padding-right: 156px; */
 }
 .header-logo-navigation {
     gap: 76px;
-    padding-left: 156px;
+    /* padding-left: 156px; */
 }
 .header {
     padding: 24px 0;

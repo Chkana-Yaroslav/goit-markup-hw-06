@@ -27,7 +27,7 @@
 .team-item-container .maintext {
             font-size: 16px;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
 }
@@ -94,6 +94,26 @@
     padding: 32px 0;
     text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+    .team-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 64px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .team-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+    .team {
+        padding: 120px 0;
+    }
+}
+
 
 
 /* .team {
